@@ -14,8 +14,8 @@ import getCroppedImageUrl from "../services/image-url";
 const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
   const { data, error, isLoading } = useGenres();
 
-  if (error) return null;
-  if (isLoading) return <Spinner />;
+  // if (error) return null;
+  // if (isLoading) return <Spinner />;
 
   return (
     <>
